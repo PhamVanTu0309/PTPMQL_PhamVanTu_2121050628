@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
+    <p>Phạm Văn Tú-2121050628</p>
+    <p>Phạm Văn Tú-2121050628</p>
+    <p>Phạm Văn Tú-2121050628</p>
+    <p>Phạm Văn Tú-2121050628</p>
+<p>Hello World!</p>
+<p>These paragraphs are styled with CSS.</p>
+
+</body>
+</html>
+
+

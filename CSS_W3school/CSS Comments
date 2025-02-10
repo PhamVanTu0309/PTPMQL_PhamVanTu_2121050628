@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    p {
+  color: red;  /* Set text color to red */
+}
+/* This is a single-line comment */
+p {
+  color: red;  /* Set text color to red */
+}
+p {
+  color: red;
+} 
+/* This is
+a multi-line
+comment */
+
+p {
+  color: red;
+}
+</style>
+</head>
+<body>
+    <p>Phạm Văn Tú-2121050628</p>
+    <p>Phạm Văn Tú-2121050628</p>
+    <p>Phạm Văn Tú-2121050628</p>
+    <p>Phạm Văn Tú-2121050628</p>
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+</body>
+</html>
+
+
