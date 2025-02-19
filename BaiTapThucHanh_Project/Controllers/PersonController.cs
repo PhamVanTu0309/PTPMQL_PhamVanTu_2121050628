@@ -1,31 +1,19 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MVCProject.Models;
-
-namespace MVCProject.Controllers;
-
-public class PersonController : Controller
+namespace MvcMovie.Controllers
 {
-    private readonly ILogger<PersonController> _logger;
-
-    public PersonController(ILogger<PersonController> logger)
+    public class PersonController : Controller
     {
-        _logger = logger;
-    }
-
-    public IActionResult IndexPerson()
-    {
+        public IActionResult IndexPerson()
+        {
+            return View();
+        }
+       [HttpPost]
+       public IActionResult IndexPerson(Person ps)
+       {
+        string str0utput = "Xin chao " +ps.PersonId + "-" + ps.Fullname +"-" + ps.Address;
+        ViewBag.infoPerson = str0utput;
         return View();
-    }
-
-    public IActionResult PrivacyPerson()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+       }
     }
 }
