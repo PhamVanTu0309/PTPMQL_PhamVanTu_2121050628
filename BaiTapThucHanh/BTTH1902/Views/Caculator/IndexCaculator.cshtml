@@ -1,0 +1,23 @@
+@model BTTH1902.Models.CaculatorModel
+<form asp-action="IndexCaculator" method="post">
+    <div>
+    <label asp-for="Item">Nhập mặt hàng của bạn</label>
+    <input asp-for="Item" type="text">
+</div>
+<div>
+    <label asp-for="NumberItem">Nhập số mặt hàng của bạn</label>
+    <input asp-for="NumberItem" type="number">
+</div>
+<div>
+    <label asp-for="Price">Giá của mặt hàng trên 1 đơn vị</label>
+    <input asp-for="Price" type="number">
+</div>
+<div>
+    <button action="submit">Tính tổng Giá tiền sản phẩm của bạn</button>
+</div>
+<h1>@ViewBag.Message</h1>
+
+
+</form>
+
+
