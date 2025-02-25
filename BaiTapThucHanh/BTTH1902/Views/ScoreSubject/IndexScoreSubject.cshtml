@@ -1,0 +1,24 @@
+@model BTTH1902.Models.ScoreSubject
+<form asp-action="IndexScoreSubject" method="post">
+<div>
+    <label asp-for="Subject">Nhập Môn học của bạn</label>
+    <input asp-for="Subject" type="text">
+</div>
+<div>
+    <label asp-for="SJA">Nhập điểm A</label>
+    <input asp-for="SJA" type="number">
+</div>
+<div>
+    <label asp-for="SJB">Nhập điểm B</label>
+    <input asp-for="SJB" type="number">
+</div>
+<div>
+    <label asp-for="SJC">Nhập điểm C</label>
+    <input asp-for="SJC" type="number">
+</div>
+<div>
+    <button type="submit">Tính điểm GPA Môn học</button>
+</div>
+
+<h1>Điểm GPA Môn học của bạn là @ViewBag.Message</h1>
+</form>
