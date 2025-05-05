@@ -1,0 +1,8 @@
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.GeneratedMSBuildEditorConfig.editorconfig
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.AssemblyInfoInputs.cache
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.AssemblyInfo.cs
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.csproj.CoreCompileInputs.cache
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.MvcApplicationPartsAssemblyInfo.cache
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.RazorAssemblyInfo.cache
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.RazorAssemblyInfo.cs
+C:\PTPMQL_PhamVanTu_2121050628\BaiTapThucHanh\TinhBMI\obj\Debug\net9.0\TinhBMI.sourcelink.json

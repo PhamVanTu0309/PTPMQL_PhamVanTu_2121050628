@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj": {}
+    "C:\\PTPMQL_PhamVanTu_2121050628\\FirstWebMVC\\FirstWebMVC.csproj": {}
   },
   "projects": {
-    "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj": {
+    "C:\\PTPMQL_PhamVanTu_2121050628\\FirstWebMVC\\FirstWebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectUniqueName": "C:\\PTPMQL_PhamVanTu_2121050628\\FirstWebMVC\\FirstWebMVC.csproj",
         "projectName": "FirstWebMVC",
-        "projectPath": "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectPath": "C:\\PTPMQL_PhamVanTu_2121050628\\FirstWebMVC\\FirstWebMVC.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Net_Core_API\\FirstWebMVC\\obj\\",
+        "outputPath": "C:\\PTPMQL_PhamVanTu_2121050628\\FirstWebMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

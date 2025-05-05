@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PTPMQL_PhamVanTu_2121050628\\Example_Slide\\MVCProject.csproj": {}
+    "C:\\PTPMQL_PhamVanTu_2121050628\\example_slide\\MVCProject.csproj": {}
   },
   "projects": {
-    "C:\\PTPMQL_PhamVanTu_2121050628\\Example_Slide\\MVCProject.csproj": {
+    "C:\\PTPMQL_PhamVanTu_2121050628\\example_slide\\MVCProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PTPMQL_PhamVanTu_2121050628\\Example_Slide\\MVCProject.csproj",
+        "projectUniqueName": "C:\\PTPMQL_PhamVanTu_2121050628\\example_slide\\MVCProject.csproj",
         "projectName": "MVCProject",
-        "projectPath": "C:\\PTPMQL_PhamVanTu_2121050628\\Example_Slide\\MVCProject.csproj",
+        "projectPath": "C:\\PTPMQL_PhamVanTu_2121050628\\example_slide\\MVCProject.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\PTPMQL_PhamVanTu_2121050628\\Example_Slide\\obj\\",
+        "outputPath": "C:\\PTPMQL_PhamVanTu_2121050628\\example_slide\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,15 +44,27 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.7.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
