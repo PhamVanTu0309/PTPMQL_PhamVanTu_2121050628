@@ -7,14 +7,19 @@ using Example_Slide.Models;
 
 namespace Example_Slide.Data
 {
-   public class ApplicationDbContext : DbContext
-{
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-    {
-    }
+  using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using VicemMVCIdentity.Models;
 
-    public DbSet<Person> Persons { get; set; } 
-}
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+
+      {
+          public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+              : base(options)
+          {
+          }
+
+          public DbSet<Person> Persons { get; set; } 
+            public DbSet<Example_Slide.Models.Employee> Employee { get; set; } = default!;
+      }
 
 }
