@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj": {}
+    "C:\\PTPMQL_PhamVanTu_2121050628\\PTPMQL_PhamVanTu\\PTPMQL_PhamVanTu.csproj": {}
   },
   "projects": {
-    "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj": {
+    "C:\\PTPMQL_PhamVanTu_2121050628\\PTPMQL_PhamVanTu\\PTPMQL_PhamVanTu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj",
-        "projectName": "FirstWebMVC",
-        "projectPath": "C:\\Net_Core_API\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectUniqueName": "C:\\PTPMQL_PhamVanTu_2121050628\\PTPMQL_PhamVanTu\\PTPMQL_PhamVanTu.csproj",
+        "projectName": "PTPMQL_PhamVanTu",
+        "projectPath": "C:\\PTPMQL_PhamVanTu_2121050628\\PTPMQL_PhamVanTu\\PTPMQL_PhamVanTu.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Net_Core_API\\FirstWebMVC\\obj\\",
+        "outputPath": "C:\\PTPMQL_PhamVanTu_2121050628\\PTPMQL_PhamVanTu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,4 @@
-namespace FirstWebMVC.Models;
+namespace PTPMQL_PhamVanTu.Models;
 
 public class ErrorViewModel
 {

@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using FirstWebMVC.Models;
+using PTPMQL_PhamVanTu.Models;
 
-namespace FirstWebMVC.Controllers;
+namespace PTPMQL_PhamVanTu.Controllers;
 
 public class HomeController : Controller
 {
