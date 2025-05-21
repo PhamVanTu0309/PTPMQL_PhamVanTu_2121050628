@@ -1,0 +1,39 @@
+@model PTPMQL_PhamVanTu.Models.Person
+
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create</h1>
+<h4>Person</h4>
+<hr />
+<div class="row">
+        <div class="col-md-d">
+            <form asp-action="create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                     <label asp-form="PersonId" class="Control-Label"></label>
+                    <input asp-form="PersonId" class="form-control"/>
+                    <span asp-validation-form="PersonId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-form="FullName" class="Control-Label"></label>
+                    <input asp-form="FullName" class="form-control"/>
+                    <span asp-validation-form="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-form="Address" class="Control-Label"></label>
+                    <input asp-form="Address" class="form-control"/>
+                    <span asp-validation-form="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary"/>
+                </div>
+            </form>
+        </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

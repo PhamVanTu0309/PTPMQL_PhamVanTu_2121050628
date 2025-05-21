@@ -1,14 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PTPMQL_PhamVanTu.Models
 {
+    [Table("Persons")]
     public class Person
     {
-        public String PersonId { get; set; }
+        [Key]
+        public string PersonId { get; set; }
         public string FullName { get; set; }
-        public String Address { get; set; }
+        public string Address { get; set; }
     }
 }
