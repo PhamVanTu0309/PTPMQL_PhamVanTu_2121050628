@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pA8l3SbOVpM=",
+  "dgSpecHash": "LOIihhK0zAQ=",
   "success": true,
   "projectFilePath": "C:\\PTPMQL_PhamVanTu_2121050628\\PTPMQL_PhamVanTu\\PTPMQL_PhamVanTu.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
