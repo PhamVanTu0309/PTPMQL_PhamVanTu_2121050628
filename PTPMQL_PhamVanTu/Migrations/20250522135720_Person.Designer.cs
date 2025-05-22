@@ -10,14 +10,32 @@ using PTPMQL_PhamVanTu.Data;
 namespace PTPMQL_PhamVanTu.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250521093322_Create_table_Person")]
-    partial class Create_table_Person
+    [Migration("20250522135720_Person")]
+    partial class Person
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.5");
+
+            modelBuilder.Entity("PTPMQL_PhamVanTu.Models.Employee", b =>
+                {
+                    b.Property<string>("EmployeeId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("EmployeeId");
+
+                    b.ToTable("Employee");
+                });
 
             modelBuilder.Entity("PTPMQL_PhamVanTu.Models.Person", b =>
                 {

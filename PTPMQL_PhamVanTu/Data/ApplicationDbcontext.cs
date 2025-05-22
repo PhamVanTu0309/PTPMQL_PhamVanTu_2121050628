@@ -10,5 +10,6 @@ namespace PTPMQL_PhamVanTu.Data
         }
 
         public DbSet<Person> Person { get; set; }
+        public DbSet<PTPMQL_PhamVanTu.Models.Employee> Employee { get; set; } = default!;
     }
 }
